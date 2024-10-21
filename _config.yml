@@ -24,8 +24,8 @@ author:
   avatar           : "mannprofile.png"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "ResearcherAssistant In Kostas research center with Master's degree in Advanced And Intelligent Manufacturing "
-  location         : "BOston, MA"
+  bio              : "Researcher Assistant In Kostas Research center with Master's degree in Advanced And Intelligent Manufacturing "
+  location         : "Boston,MA"
   employer         : "Northeastern University"
   uri              : # URL
   email            : "patel.mann@northeastern.edu" 
