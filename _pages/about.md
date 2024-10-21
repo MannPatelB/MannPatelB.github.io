@@ -14,7 +14,9 @@ I have a multidisciplinary skill set in manufacturing, scientific software devel
 My professional aspirations are both simple and profound:
 
 Engage with cutting-edge technology 🚀 to create solutions with a significant global impact 🌍.
+
 Excel in tackling the most challenging problems 🧠 and develop innovative, sustainable products and processes ♻️.
+
 Forge meaningful connections 👥 and positively influence society through collaborative efforts 🤝.
 
 
