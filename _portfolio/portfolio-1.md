@@ -1,6 +1,6 @@
 ---
 title: "Cold Spray Toolbox: World's First Open-Source CAD-to-Product Solution for Cold spray Additive Manufacturing"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+excerpt: "The "Complete Cold Spray Toolbox Software" is the world's first open-source toolbox designed specifically for Cold Spray Additive Manufacturing (CSAM). It provides a comprehensive solution for both Cold Spray Repair and Cold Spray Additive Manufacturing, featuring a user-friendly GUI and various tabs for CAD manipulation, slicing, simulation, and robot tool path generation. <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
