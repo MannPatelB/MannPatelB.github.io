@@ -7,11 +7,14 @@ The Complete Cold Spray Toolbox Software is the world's first open-source toolbo
 
 The toolbox consists of key modules:
 
-CAD Manipulation: After scanning a damaged area with a 3D scanner, users can select specific regions for repair, choose materials, and define toolpath strategies for efficient restoration.
+## CAD Manipulation: 
+After scanning a damaged area with a 3D scanner, users can select specific regions for repair, choose materials, and define toolpath strategies for efficient restoration.
 
-Slicing and Simulation: Equipped with an extensive material library and experimental parameters, the software provides real-time simulation capabilities with up to 90% accuracy compared to physical processes, allowing users to iterate designs as needed.
+##Slicing and Simulation: 
+Equipped with an extensive material library and experimental parameters, the software provides real-time simulation capabilities with up to 90% accuracy compared to physical processes, allowing users to iterate designs as needed.
 
-Robot Tool Path Generation: Users can generate and simulate robot tool paths to visualize the movement of physical systems, providing a digital twin environment for accurate task execution.
+## Robot Tool Path Generation: 
+Users can generate and simulate robot tool paths to visualize the movement of physical systems, providing a digital twin environment for accurate task execution.
 
 For additive manufacturing, users can import CAD models, select materials, and leverage various toolpath parameters and strategies to achieve desired mechanical properties and dimensional accuracy. The software provides end-to-end workflow integration—from CAD or 3D scans to the final product—making it a comprehensive and unique solution for the Cold Spray process.
 
