@@ -5,12 +5,12 @@ collection: portfolio
 ---
 The Complete Cold Spray Toolbox Software is the world's first open-source toolbox designed specifically for Cold Spray Additive Manufacturing (CSAM). It provides a comprehensive solution for both Cold Spray Repair and Cold Spray Additive Manufacturing, featuring a user-friendly GUI and various tabs for CAD manipulation, slicing, simulation, and robot tool path generation.
 
-The toolbox consists of key modules:
+###The toolbox consists of key modules:
 
 ## CAD Manipulation: 
 After scanning a damaged area with a 3D scanner, users can select specific regions for repair, choose materials, and define toolpath strategies for efficient restoration.
 
-##Slicing and Simulation: 
+## Slicing and Simulation: 
 Equipped with an extensive material library and experimental parameters, the software provides real-time simulation capabilities with up to 90% accuracy compared to physical processes, allowing users to iterate designs as needed.
 
 ## Robot Tool Path Generation: 
