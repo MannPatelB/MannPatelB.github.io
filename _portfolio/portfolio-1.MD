@@ -12,6 +12,9 @@ The Complete Cold Spray Toolbox Software is the world's first open-source toolbo
 ### 1. CAD Manipulation
 The CAD Manipulation module allows users to import CAD files or scan damaged components to define the regions that need repair. After scanning a damaged area with a 3D scanner, users can select specific regions for repair, choose materials, and define toolpath strategies for efficient restoration. The surfacing tools help in trimming areas for targeted restoration, minimizing excess deposition and ensuring precise material usage. This step ensures that only the required portions of the damaged part are used in the subsequent toolpath generation process.
 
+![aft-section-CAD]({{ site.baseurl }}/images/bio-photo.jpg)
+<figcaption>CAD section view of aft closure installed in motor.</figcaption>
+
 ### 2. Slicing
 The Slicing module is equipped with an extensive material library and experimental parameters to facilitate accurate and efficient planning of the cold spray process. Users can select from different fill patterns, such as raster and spiral paths, which are tailored to different geometries. This module allows users to precisely define how the material should be deposited layer by layer, helping to achieve the desired mechanical properties and dimensional accuracy.
 
