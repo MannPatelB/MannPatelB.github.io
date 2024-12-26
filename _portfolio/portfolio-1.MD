@@ -13,17 +13,20 @@ The Complete Cold Spray Toolbox Software is the world's first open-source toolbo
 The CAD Manipulation module allows users to import CAD files or scan damaged components to define the regions that need repair. After scanning a damaged area with a 3D scanner, users can select specific regions for repair, choose materials, and define toolpath strategies for efficient restoration. The surfacing tools help in trimming areas for targeted restoration, minimizing excess deposition and ensuring precise material usage. This step ensures that only the required portions of the damaged part are used in the subsequent toolpath generation process.
 
 ![aft-section-CAD]({{ site.baseurl }}/images/bio-photo.jpg)
-<figcaption>CAD section view of aft closure installed in motor.</figcaption>
+<figcaption>CAD Insert a photo.</figcaption>
 
 ### 2. Slicing
 The Slicing module is equipped with an extensive material library and experimental parameters to facilitate accurate and efficient planning of the cold spray process. Users can select from different fill patterns, such as raster and spiral paths, which are tailored to different geometries. This module allows users to precisely define how the material should be deposited layer by layer, helping to achieve the desired mechanical properties and dimensional accuracy.
-
+![aft-section-CAD]({{ site.baseurl }}/images/bio-photo.jpg)
+<figcaption>CAD Insert a photo.</figcaption>
 ### 3. Simulation
 The Simulation module provides real-time simulation capabilities with up to 90% accuracy compared to physical processes, allowing users to iterate and optimize designs as needed. This module also includes tools to assess the deposition quality and predict the results of material spraying, providing an iterative environment to tweak toolpaths and spray settings until the desired outcome is achieved. The simulation capabilities help users visualize how the material will be deposited, reducing the trial-and-error approach and enhancing process reliability. This is further supported by real-world examples of successfully sprayed parts, showing the effectiveness of the generated toolpaths in actual applications.
-
+![aft-section-CAD]({{ site.baseurl }}/images/bio-photo.jpg)
+<figcaption>CAD Insert a photo.</figcaption>
 ### 4. Robot Tool Path Generation
 The Robot Tool Path Generation module allows users to generate and simulate robot tool paths for their specific physical systems. This module helps in visualizing the movement of robots in a digital twin environment, providing a detailed simulation of how the robot will execute the cold spray task. By simulating the tool paths, users can detect potential issues in advance and make necessary adjustments, ensuring accuracy and efficiency during the actual cold spray process. This feature also enables integration with commonly used robot arms, offering compatibility across various systems and making it easier for users to apply the toolbox to real-world scenarios.
-
+![aft-section-CAD]({{ site.baseurl }}/images/bio-photo.jpg)
+<figcaption>CAD Insert a photo.</figcaption>
 ## Integrated Workflow for Cold Spray Repair and Additive Manufacturing
 Both **Cold Spray Repair** and **Cold Spray Additive Manufacturing** follow the same integrated workflow using the modules mentioned above. Users can import CAD models, select materials, and leverage various toolpath parameters and strategies to achieve desired mechanical properties and dimensional accuracy for both repair and additive processes. The toolbox offers a range of features that cater to different stages of these processes:
 
