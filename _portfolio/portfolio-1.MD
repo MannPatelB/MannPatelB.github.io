@@ -1,42 +1,173 @@
 ---
 title: "Cold Spray Toolbox: World's First Open-Source CAD-to-Product Solution for Cold Spray Additive Manufacturing"
-excerpt: "The Complete Cold Spray Toolbox Software is the world's first open-source toolbox designed specifically for Cold Spray Additive Manufacturing (CSAM). It provides a comprehensive solution for both Cold Spray Repair and Cold Spray Additive Manufacturing, featuring a user-friendly GUI and various tabs for CAD manipulation, slicing, simulation, and robot tool path generation. <br/><img src='/images/CS toolbox software.png'>"
+excerpt: "The Complete Cold Spray Toolbox Software is the world's first open-source toolbox designed specifically for Cold Spray Additive Manufacturing (CSAM). It provides a comprehensive solution featuring a user-friendly GUI and various tabs for CAD manipulation, slicing, simulation, and robot tool path generation. <br/><img src='/images/CS_toolbox_software.png'>"
 collection: portfolio
 ---
+
 # Complete Cold Spray Toolbox Software
 
-The Complete Cold Spray Toolbox Software is the world's first open-source toolbox designed specifically for Cold Spray Additive Manufacturing (CSAM). It provides a comprehensive solution for both Cold Spray Repair and Cold Spray Additive Manufacturing, featuring a user-friendly GUI and various tabs for CAD manipulation, slicing, simulation, and robot tool path generation. This toolbox aims to simplify the cold spray process, making it accessible and effective for users without requiring expert-level knowledge of the field.
+The **Complete Cold Spray Toolbox Software** is the world's first open-source toolbox designed specifically for **Cold Spray Additive Manufacturing (CSAM)**. It streamlines the entire process—encompassing CAD manipulation, slicing, simulation, and robot tool path generation—into one cohesive platform. By operating at temperatures significantly below the melting point of deposited materials, cold spray avoids many common problems (e.g., oxidation, thermal distortion) often encountered in high-heat additive methods like Laser Metal Deposition (LMD) or Selective Laser Melting (SLM).
+
+---
+
+## What is Cold Spray?
+
+![cold-spray-process-explanation]({{ site.baseurl }}/images/cold-spray-process-explanation.jpg)
+<figcaption>Conceptual illustration of the cold spray process.</figcaption>
+
+**Cold Spray** is an innovative additive manufacturing technique developed in the 1980s at the Russian Academy of Sciences. In this process, high-pressure gases (e.g., helium or nitrogen) accelerate micron-sized particles (1–100 µm) through a converging-diverging nozzle at supersonic speeds (300 to 1,200 m/s). Because these particles impact the substrate at high velocity but relatively low temperature (below their melting point), the resulting bonding mechanism is primarily **mechanical interlocking** and **localized metallurgical bonding** due to intense plastic deformation.
+
+This **low-temperature approach** substantially reduces issues like:
+- **Oxidation**: Minimal oxide formation compared to high-heat processes.
+- **Thermal Stresses**: Reduced or negligible residual stresses since the material never approaches its melt temperature.
+- **Microstructural Degradation**: Grain coarsening, phase changes, and decomposition are significantly mitigated.
+
+---
 
 ## Key Modules
 
 ### 1. CAD Manipulation
-The CAD Manipulation module allows users to import CAD files or scan damaged components to define the regions that need repair. After scanning a damaged area with a 3D scanner, users can select specific regions for repair, choose materials, and define toolpath strategies for efficient restoration. The surfacing tools help in trimming areas for targeted restoration, minimizing excess deposition and ensuring precise material usage. This step ensures that only the required portions of the damaged part are used in the subsequent toolpath generation process.
 
-![aft-section-CAD]({{ site.baseurl }}/images/bio-photo.jpg)
-<figcaption>CAD Insert a photo.</figcaption>
+**Conceptual Overview**  
+![cad-manipulation-concept]({{ site.baseurl }}/images/cad-manipulation-concept.jpg)
+<figcaption>High-level illustration of importing and setting up CAD models for Cold Spray AM.</figcaption>
+
+**Software GUI**  
+![cad-manipulation-gui]({{ site.baseurl }}/images/cad-manipulation-gui.jpg)
+<figcaption>Screenshot of the toolbox GUI during CAD manipulation.</figcaption>
+
+In the **CAD Manipulation** module, users can import native CAD files or 3D scans, select relevant geometries, and assign material properties for cold spray. This ensures precise boundary definitions and alignment for subsequent steps. Users can choose from a variety of powder specifications, substrate references, and parameter templates tailored for different part geometries.
+
+---
 
 ### 2. Slicing
-The Slicing module is equipped with an extensive material library and experimental parameters to facilitate accurate and efficient planning of the cold spray process. Users can select from different fill patterns, such as raster and spiral paths, which are tailored to different geometries. This module allows users to precisely define how the material should be deposited layer by layer, helping to achieve the desired mechanical properties and dimensional accuracy.
-![aft-section-CAD]({{ site.baseurl }}/images/bio-photo.jpg)
-<figcaption>CAD Insert a photo.</figcaption>
-### 3. Simulation
-The Simulation module provides real-time simulation capabilities with up to 90% accuracy compared to physical processes, allowing users to iterate and optimize designs as needed. This module also includes tools to assess the deposition quality and predict the results of material spraying, providing an iterative environment to tweak toolpaths and spray settings until the desired outcome is achieved. The simulation capabilities help users visualize how the material will be deposited, reducing the trial-and-error approach and enhancing process reliability. This is further supported by real-world examples of successfully sprayed parts, showing the effectiveness of the generated toolpaths in actual applications.
-![aft-section-CAD]({{ site.baseurl }}/images/bio-photo.jpg)
-<figcaption>CAD Insert a photo.</figcaption>
-### 4. Robot Tool Path Generation
-The Robot Tool Path Generation module allows users to generate and simulate robot tool paths for their specific physical systems. This module helps in visualizing the movement of robots in a digital twin environment, providing a detailed simulation of how the robot will execute the cold spray task. By simulating the tool paths, users can detect potential issues in advance and make necessary adjustments, ensuring accuracy and efficiency during the actual cold spray process. This feature also enables integration with commonly used robot arms, offering compatibility across various systems and making it easier for users to apply the toolbox to real-world scenarios.
-![aft-section-CAD]({{ site.baseurl }}/images/bio-photo.jpg)
-<figcaption>CAD Insert a photo.</figcaption>
-## Integrated Workflow for Cold Spray Repair and Additive Manufacturing
-Both **Cold Spray Repair** and **Cold Spray Additive Manufacturing** follow the same integrated workflow using the modules mentioned above. Users can import CAD models, select materials, and leverage various toolpath parameters and strategies to achieve desired mechanical properties and dimensional accuracy for both repair and additive processes. The toolbox offers a range of features that cater to different stages of these processes:
 
-- **Material Selection and Toolpath Strategies**: Users have access to a large material library, which allows them to choose appropriate materials based on the desired properties of the final product. Toolpath strategies can be customized depending on the specific requirements of the part, such as mechanical strength, surface finish, and dimensional precision.
-- **End-to-End Workflow Integration**: The software provides a complete workflow solution—from CAD or 3D scans to the final product—making it a comprehensive and unique tool for the Cold Spray process. It enables users to seamlessly move from design to manufacturing without the need for multiple separate tools, significantly reducing the complexity and time required to complete a project.
+**Conceptual Overview**  
+![slicing-module-concept]({{ site.baseurl }}/images/slicing-module-concept.jpg)
+<figcaption>Layer-by-layer overview of slicing for Cold Spray Additive Manufacturing.</figcaption>
+
+**Software GUI**  
+![slicing-module-gui]({{ site.baseurl }}/images/slicing-module-gui.jpg)
+<figcaption>A look at the slicing interface, highlighting adjustable layer thickness and fill patterns.</figcaption>
+
+The **Slicing** module allows layer-by-layer preparation of the CAD model for cold spray deposition. Key features include:
+
+- **Material Library**: Choose from a wide range of metals/alloys, each with suggested velocity and temperature ranges.  
+- **Fill Patterns**: Configure raster, spiral, or custom fill paths based on part geometry.  
+- **Layer Control**: Define layer thickness, overlap, and step distance to optimize mechanical properties, dimensional accuracy, and build time.
+
+---
+
+### 3. Simulation
+
+Before delving into the simulation interface, we present a **mathematical framework** that underpins our cold spray deposition model.
+
+#### Final Deposition Model
+
+By substituting Equations (7) and (8) into Equation (6), we obtain the **material deposition model**:
+
+\[
+\frac{\partial |(P_s) \vec{}|}{\partial t}
+=
+\frac{1}{\rho \cdot h}
+\cdot
+\frac{ \dot{m}_n }{ \Delta S ( \vec{n}_s \cdot \vec{n}_p ) }
+\cdot
+\frac{1}{2\pi \sigma_p^2 }
+\exp \left[
+ -\frac{1}{2}
+ \left(\frac{r_n}{\sigma_p}\right)^2
+\right]
+\tag{14}
+\]
+
+For increased accuracy, the projected discretized surface area \(\Delta S\) must be adjusted to account for the angle of incidence \(\theta\), described as:
+
+\[
+\Delta S^* = \cos(\theta) \, \Delta S
+\]
+
+Furthermore, the **scalar deposition** (\(P_s\)) can be expressed in terms of the partial derivative of the vector magnitude:
+
+\[
+\frac{\partial P_s}{\partial t}
+=
+\frac{\partial |(P_s) \vec{}|}{\partial t}
+\,
+(\vec{n}_p)
+\tag{15}
+\]
+
+Below is a conceptual **visualization of the deposition process** (Figure 21) based on the above equations:
+
+![deposition-process-diagram]({{ site.baseurl }}/images/deposition-process-diagram.jpg)
+<figcaption>Figure 21: Visualization of how particles accumulate on the substrate as described by Equations (14) and (15).</figcaption>
+
+---
+
+**Simulation Interface**  
+![simulation-gui]({{ site.baseurl }}/images/simulation-gui.jpg)
+<figcaption>A real-time simulation of layer growth and particle trajectories in the toolbox.</figcaption>
+
+With **up to 90% accuracy** relative to experimental data, the Simulation module:
+
+- **Predicts Deposit Thickness**: Continuously updates build height maps based on user-defined parameters.  
+- **Analyzes Particle Velocities**: Evaluates the effect of gas pressure, nozzle diameter, and stand-off distance.  
+- **Optimizes Parameters**: Allows iterative tuning of spray angles, traverse speed, and feed rate to reduce trial-and-error in actual builds.
+
+---
+
+### 4. Robot Tool Path Generation
+
+**Conceptual Overview**  
+![robot-toolpath-concept]({{ site.baseurl }}/images/robot-toolpath-concept.jpg)
+<figcaption>Conceptual overview of offline programming for robotic cold spray.</figcaption>
+
+**Digital Twin Environment**  
+![robot-toolpath-digital-twin]({{ site.baseurl }}/images/robot-toolpath-digital-twin.jpg)
+<figcaption>Simulation showing a robotic arm following a predefined toolpath in a digital twin environment.</figcaption>
+
+The **Robot Tool Path Generation** module automatically calculates collision-free trajectories for your chosen robot (e.g., ABB, Fanuc, KUKA). Key advantages include:
+
+- **Offline Programming**: Visualize nozzle angles, standoff distances, and motion sequences in a virtual environment before physical setup.  
+- **Collision Detection**: Identify potential clearance issues and refine path planning to avoid expensive hardware damage.  
+- **Integrated Export**: Seamlessly convert simulation outputs to robot-native instructions, accelerating transition to real-world deposition.
+
+---
+
+## Results
+
+In this section, we showcase **real-world outcomes** from using the Cold Spray Toolbox, highlighting consistency between simulated and actual builds.
+
+### 1. CAD Model vs. Final Printed Part
+
+![cad-to-printed-part]({{ site.baseurl }}/images/cad-to-printed-part.jpg)
+<figcaption>A comparison of the initial CAD model and the final cold-sprayed component.</figcaption>
+
+- **Observation**: Layer thickness, part contours, and overall dimensional accuracy show strong correlation with the simulated build.
+
+### 2. Wrench Example
+
+![wrench-cad]({{ site.baseurl }}/images/wrench-cad.jpg)
+<figcaption>CAD model of a specialized wrench designed for cold spray AM.</figcaption>
+
+![wrench-printed-machined]({{ site.baseurl }}/images/wrench-printed-machined.jpg)
+<figcaption>Finished cold-sprayed wrench after minimal post-process machining.</figcaption>
+
+- **Highlights**: Demonstrates the flexibility of cold spray for complex geometries and the final part’s uniform material properties. Machining requirements were minimal, confirming near-net shape capability.
+
+---
 
 ## Conclusion
-The Complete Cold Spray Toolbox Software is designed to streamline the entire cold spray additive manufacturing and repair processes, making it easier for engineers and researchers to repair damaged components or create new parts with high precision and efficiency. The toolbox provides an intuitive interface, allowing users to visualize each step of the process, iterate designs based on simulation feedback, and generate robot-ready toolpaths, ultimately offering a powerful and accessible solution for cold spray applications.
 
+The **Complete Cold Spray Toolbox Software** delivers a **holistic solution** for **Cold Spray Additive Manufacturing**—from CAD imports and slicing to advanced numerical simulations and robot tool path generation. By leveraging **low-temperature deposition**, the process preserves critical material properties and ensures robust mechanical interlocking without the common drawbacks of high-heat additive methods.
 
+---
 
+## References
 
+- [1] **Your Thesis Link Here** – For an in-depth understanding of the governing equations, experimental validations, and advanced cold spray methodologies, please refer to the author’s thesis.
+- [2] **Additional Reference (If Needed)**
+
+---
 
